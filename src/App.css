@@ -1,0 +1,90 @@
+html {
+  background-color: #111;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: calc(3vh + 1vw);
+  color: white;
+}
+
+select {
+  padding: 10px 5px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+textarea {
+  padding: 10px 5px;
+  width: 50%;
+  max-height: 200px;
+  border-radius: 3px;
+  resize: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.btn-export {
+  margin: 10px auto;
+  background: #009e28;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.btn-export:hover, .btn-export:focus {
+  background: #34a04f;
+}
+
+/* Select & Textarea */
+.input-zone {
+  display: flex;
+  direction: row;
+  position: relative;
+  margin: 5px auto;
+}
+
+.select-box {
+  max-width: 500px;
+  margin: 5px auto;
+}
+
+/* Meme zone */
+.meme {
+  position: relative;
+  user-select: none;
+  background-color: #000;
+  margin-bottom: 10px;
+}
+
+.meme span {
+  position: absolute;
+  margin-top: 5%;
+  text-align: center;
+  font-size: calc(2vh + 1vw);
+  font-weight: bold;
+  width: 100%;
+  word-wrap: break-word;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.meme span:nth-child(2) {
+  bottom: 10%;
+}
+
+.meme img {
+  width: 100%;
+}
